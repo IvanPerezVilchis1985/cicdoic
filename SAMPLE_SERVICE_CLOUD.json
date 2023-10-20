@@ -1,0 +1,42 @@
+{
+  "agentRequired": false,
+  "agentSupported": false,
+  "connectionProperties": [
+    {
+      "displayName": "WSDL URL",
+      "hasAttachment": false,
+      "hiddenFlag": false,
+      "propertyDescription": "The Oracle Service Cloud adapter builds on the Connect Web Services API for SOAP to provide real-time integration with the Oracle Service Cloud Cx Platform. Specify the WSDL URL for the Connect Web Services along with the typed version. Ex: https://<OracleRightnow-Cloud-host>/services/soap/connect/soap?wsdl=typed_v1.3",
+      "propertyGroup": "CONNECTION_PROPS",
+      "propertyName": "targetWSDLURL",
+      "propertyShortDesc": "Ex: https://<OracleRightnow-Cloud-host>/services/soap/connect/soap?wsdl=typed_v1.3",
+      "propertyType": "WSDL_URL",
+      "requiredFlag": true
+    }
+  ],
+  "id": "SAMPLE_SERVICE_CLOUD",
+  "role": "SOURCE_AND_TARGET",
+  "securityPolicy": "USERNAME_PASSWORD_TOKEN",
+  "securityProperties": [
+    {
+      "displayName": "Username",
+      "hasAttachment": false,
+      "hiddenFlag": false,
+      "propertyDescription": "A username credential",
+      "propertyGroup": "CREDENTIALS",
+      "propertyName": "username",
+      "propertyType": "STRING",
+      "requiredFlag": true
+    },
+    {
+      "displayName": "Password",
+      "hasAttachment": false,
+      "hiddenFlag": false,
+      "propertyDescription": "A password credential",
+      "propertyGroup": "CREDENTIALS",
+      "propertyName": "password",
+      "propertyType": "PASSWORD",
+      "requiredFlag": true
+    }
+  ]
+}
