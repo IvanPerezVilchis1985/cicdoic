@@ -1,0 +1,8 @@
+{
+  "agentRequired": false,
+  "agentSupported": false,
+  "description": "",
+  "id": "IPV_RESTDATATR_TOBEDELETE",
+  "role": "SOURCE",
+  "securityPolicy": "MULTI_TOKEN_INBOUND"
+}
