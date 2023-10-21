@@ -1,7 +1,0 @@
-{
-  "agentRequired": false,
-  "agentSupported": false,
-  "id": "MY_REST_ENDPOINT_INTERFAC",
-  "role": "SOURCE",
-  "securityPolicy": "MULTI_TOKEN_INBOUND"
-}
